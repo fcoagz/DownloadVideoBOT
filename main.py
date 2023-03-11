@@ -43,7 +43,10 @@ def receiveLink(message):
 
             time.sleep(5)
             rmtree(content)
-    except: bot.edit_message_text(text='''😓<i>Connection failed! Cannot download video.</i>''',
+    except: 
+        try: rmtree(content) 
+        except: pass    
+        bot.edit_message_text(text='''😓<i>Connection failed! Cannot download video.</i>''',
                                   chat_id= message.chat.id,
                                   message_id= msg.message_id)
 
