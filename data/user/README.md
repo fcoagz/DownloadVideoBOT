@@ -1,2 +1,2 @@
 # What are these folders for?
-The videos will have a place to store and then be sent. Once said video has been sent it will be automatically deleted, but if said video has not been sent by, problems with the internet, the video will be kept together where it will be stored in the message.chat.id of the user.
+The videos will have a place to store and then be sent. Once said video has been sent it will be automatically deleted.
