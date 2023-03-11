@@ -8,7 +8,7 @@ import time
 filePath = os.getcwd() + 'data/user/'
 user = {} # dictionary
 
-bot = telebot.TeleBot('5754402111:AAGVlYa9za5V-izgCWWDjky66Gr3QJLIdUs', parse_mode='HTML')
+bot = telebot.TeleBot('TOKEN', parse_mode='HTML')
 
 @bot.message_handler(commands=['start'])
 def sendWelcome(message):
