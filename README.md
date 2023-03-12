@@ -3,7 +3,7 @@ It is a simple bot that downloads YouTube videos on Telegram.
 
 ## Run
 - Clone this repository `git clone https://github.com/fcoagz/DownloadVideoBOT`
-- Download the dependencies `pip install PyTelegramBotAPI` and `pip install pytube`
+- Download the dependencies `pip install -r requirements.txt`
 - Start in VS Code or an Online IDE
 - 😎 enjoyment!
 
