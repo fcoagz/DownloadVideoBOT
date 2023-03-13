@@ -28,7 +28,7 @@ def receiveLink(message):
                                    file_extension='mp4').get_by_itag(18) # <18> 360p and <22> 720p
         stream.download(filePath+str(message.chat.id))
 
-        content = filePath+str(message.chat.id)
+        content = filePath+str(message.chat.id)+'/' # determined route
         with os.scandir(content) as extractVideo:
             extractVideo = [file for file in extractVideo if file.is_file()]
         with open(extractVideo[0], 'rb') as video:
